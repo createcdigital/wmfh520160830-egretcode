@@ -1,0 +1,325 @@
+{
+	"groups": [
+		{
+			"keys": "loading1,loading",
+			"name": "preload"
+		},
+		{
+			"keys": "go,first-2,first-1,first-3,first-4,bg1",
+			"name": "game1"
+		},
+		{
+			"keys": "name,bg,qr-btn,music,mp3",
+			"name": "game2"
+		},
+		{
+			"keys": "bg3,closs,round,round1,two-1,two-3-5,two-3-4,two-3-3,two-3-2,two-3-1,two-4-5,two-4-4,two-4-3,two-4-2,two-4-1,two-5,tap",
+			"name": "game3"
+		},
+		{
+			"keys": "again-btn,againtoo-btn,bg2,finish-other,finish-my,gd-btn,gz-text,isOnce,isRepeat,ljxd-btn,QRCode,redpag,share-bg,three-2,three-1,three-3-5,three-3-3,three-3-1,three-3-2,three-3-4,three-4-2,three-4-4,three-4-1,three-4-5,three-4-3,three-5,three-bg,yqhl-btn,finish-restar",
+			"name": "game4"
+		},
+		{
+			"keys": "again-btn,againtoo-btn,bg2,finish-other,finish-my,gd-btn,gz-text,isOnce,isRepeat,ljxd-btn,QRCode,redpag,share-bg,three-2,three-1,three-3-5,three-3-3,three-3-1,three-3-2,three-3-4,three-4-2,three-4-4,three-4-1,three-4-5,three-4-3,three-5,three-bg,yqhl-btn,music,mp3,bg3,finish-restar",
+			"name": "game5"
+		}
+	],
+	"resources": [
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/QRCode.png",
+			"type": "image",
+			"name": "QRCode"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/again-btn.png",
+			"type": "image",
+			"name": "again-btn"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/againtoo-btn.png",
+			"type": "image",
+			"name": "againtoo-btn"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/bg.jpg",
+			"type": "image",
+			"name": "bg"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/bg1.png",
+			"type": "image",
+			"name": "bg1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/bg2.png",
+			"type": "image",
+			"name": "bg2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/closs.png",
+			"type": "image",
+			"name": "closs"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/finish-my.jpg",
+			"type": "image",
+			"name": "finish-my"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/finish-other.jpg",
+			"type": "image",
+			"name": "finish-other"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/first-1.jpg",
+			"type": "image",
+			"name": "first-1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/first-2.png",
+			"type": "image",
+			"name": "first-2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/first-3.png",
+			"type": "image",
+			"name": "first-3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/first-4.jpg",
+			"type": "image",
+			"name": "first-4"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/gd-btn.png",
+			"type": "image",
+			"name": "gd-btn"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/go.png",
+			"type": "image",
+			"name": "go"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/gz-text.jpg",
+			"type": "image",
+			"name": "gz-text"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/isOnce.png",
+			"type": "image",
+			"name": "isOnce"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/isRepeat.png",
+			"type": "image",
+			"name": "isRepeat"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/ljxd-btn.png",
+			"type": "image",
+			"name": "ljxd-btn"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/loading.jpg",
+			"type": "image",
+			"name": "loading"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/loading1.png",
+			"type": "image",
+			"name": "loading1"
+		},
+		{
+			"url": "assets/mp3.mp3",
+			"type": "sound",
+			"name": "mp3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/music.png",
+			"type": "image",
+			"name": "music"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/name.jpg",
+			"type": "image",
+			"name": "name"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/qr-btn.png",
+			"type": "image",
+			"name": "qr-btn"
+		},
+		{
+			"url": "assets/redpag.jpg",
+			"type": "image",
+			"name": "redpag"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/round.png",
+			"type": "image",
+			"name": "round"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/round1.png",
+			"type": "image",
+			"name": "round1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/share-bg.png",
+			"type": "image",
+			"name": "share-bg"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-3-1.png",
+			"type": "image",
+			"name": "three-3-1"
+		},
+		{
+			"url": "assets/three-3-2.png",
+			"type": "image",
+			"name": "three-3-2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-3-3.png",
+			"type": "image",
+			"name": "three-3-3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-3-4.png",
+			"type": "image",
+			"name": "three-3-4"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-3-5.png",
+			"type": "image",
+			"name": "three-3-5"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-4-1.png",
+			"type": "image",
+			"name": "three-4-1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-4-2.png",
+			"type": "image",
+			"name": "three-4-2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-4-3.png",
+			"type": "image",
+			"name": "three-4-3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-4-4.png",
+			"type": "image",
+			"name": "three-4-4"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-4-5.png",
+			"type": "image",
+			"name": "three-4-5"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-5.png",
+			"type": "image",
+			"name": "three-5"
+		},
+		{
+			"url": "assets/three-bg.jpg",
+			"type": "image",
+			"name": "three-bg"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-1.png",
+			"type": "image",
+			"name": "two-1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-3-1.png",
+			"type": "image",
+			"name": "two-3-1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-3-2.png",
+			"type": "image",
+			"name": "two-3-2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-3-3.png",
+			"type": "image",
+			"name": "two-3-3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-3-4.png",
+			"type": "image",
+			"name": "two-3-4"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-3-5.png",
+			"type": "image",
+			"name": "two-3-5"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-4-1.jpg",
+			"type": "image",
+			"name": "two-4-1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-4-2.jpg",
+			"type": "image",
+			"name": "two-4-2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-4-3.jpg",
+			"type": "image",
+			"name": "two-4-3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-4-4.jpg",
+			"type": "image",
+			"name": "two-4-4"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-4-5.jpg",
+			"type": "image",
+			"name": "two-4-5"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/two-5.png",
+			"type": "image",
+			"name": "two-5"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/yqhl-btn.png",
+			"type": "image",
+			"name": "yqhl-btn"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-1.png",
+			"type": "image",
+			"name": "three-1"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/three-2.png",
+			"type": "image",
+			"name": "three-2"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/bg3.png",
+			"type": "image",
+			"name": "bg3"
+		},
+		{
+			"url": "http://assetscdn.createcdigital.com/wmfh520160830/assets/finish-restar.png",
+			"type": "image",
+			"name": "finish-restar"
+		},
+		{
+			"url": "assets/tap.mp3",
+			"type": "sound",
+			"name": "tap"
+		}
+	]
+}
