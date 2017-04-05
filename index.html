@@ -99,6 +99,21 @@
             console.log("msg from egret : " + "a :" + a + "b :" + b+ "c :" + c);
             _smq.push(['custom',a,b,c]);
         }
+        function getDebugUser()
+        {
+            var openid = document.getElementById("openID").innerHTML;
+            var user = "james" + openid.substring(0, 2);
+            var phone = "135" + RandNum(8);
+
+            return {user: user, phone: phone};
+        }
+
+        function RandNum(n){  
+            var rnd="";  
+            for(var i=0;i<n;i++)  
+                rnd+=Math.floor(Math.random()*10);  
+            return rnd;  
+        }
     </script>
 </body>
 </html>

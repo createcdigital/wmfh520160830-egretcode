@@ -225,4 +225,5 @@ class comeUI extends egret.DisplayObjectContainer{
         var event:wmfEvent = new wmfEvent(wmfEvent.SHAR_STAR);
         this.dispatchEvent(event);
     }
+ß
 }

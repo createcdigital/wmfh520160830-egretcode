@@ -25,8 +25,8 @@ var menuUI = (function (_super) {
         this._menuGroup = new egret.DisplayObjectContainer();
         this.addChild(this._menuGroup);
         //点击音效
-        this.clickMusic = new clickMusic();
-        this.addChild(this.clickMusic);
+        // this.clickMusic = new clickMusic();
+        // this.addChild(this.clickMusic);
         //页面背景
         this._menuBg = wmf.createBitmapByName("bg");
         //标题
@@ -134,7 +134,7 @@ var menuUI = (function (_super) {
     p.onChange = function (event) {
         var name = Number(event.target.name);
         this._greenR.x = this._writeX[name] - 59;
-        this.clickMusic.starMuc();
+        //this.clickMusic.starMuc();
         var tw = egret.Tween.get(this.group);
         tw.to({ x: this.weizhi[name] }, 500);
     };
@@ -242,7 +242,7 @@ var menuUI = (function (_super) {
         var isphone = document.getElementById("isphone").innerHTML;
         wmf.tracking("click?out_trade=" + wmf.out_trade + "&type=click-menu" + wmf._CardNum);
         if (isphone == "true") {
-            var url = "http://www.createcdigital.com/wmfh520160830/index.php?sharId=" + wmf._Phone + "&channel=" + wmf.out_trade;
+            var url = "http://wmf.mz-weixin-qq.com/wmfh520160830/index.php?sharId=" + wmf._Phone + "&channel=" + wmf.out_trade;
             window.location.href = url;
         }
         else {

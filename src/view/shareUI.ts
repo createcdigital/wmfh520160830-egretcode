@@ -465,7 +465,7 @@ class shareUI extends egret.DisplayObjectContainer{
         if(wmf.openID !== wmf.sharOpenID){
             var myData = new Date(); 
             var times = myData.getTime();//当前时间的毫秒数
-            var url  = 'http://www.createcdigital.com/wmfh520160830/index.php?channel='+wmf.out_trade + "&r="+ times;
+            var url  = 'http://wmf.mz-weixin-qq.com/wmfh520160830/index.php?channel='+wmf.out_trade + "&r="+ times;
             location.href = url;
         }else{
             this.resetURL = new resetURL();
@@ -488,7 +488,7 @@ class shareUI extends egret.DisplayObjectContainer{
         
         var myData = new Date(); 
         var times = myData.getTime();//当前时间的毫秒数
-        var url  = 'http://www.createcdigital.com/wmfh520160830/index.php?channel='+wmf.out_trade + "&r="+ times;
+        var url  = 'http://wmf.mz-weixin-qq.com/wmfh520160830/index.php?channel='+wmf.out_trade + "&r="+ times;
         window.location.href = url;
     }
 

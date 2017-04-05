@@ -103,13 +103,8 @@ class textUI extends egret.DisplayObjectContainer{
             this._tablePoint.text = "＊请输入正确的11位电话号码"
         }else{
             this._tableBtn.touchEnabled = false;
-            var id = getUuid();
-            function getUuid(){
-                var len=32;//32长度
-                var radix=16;//16进制
-                var chars='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');var uuid=[],i;radix=radix||chars.length;if(len){for(i=0;i<len;i++)uuid[i]=chars[0|Math.random()*radix];}else{var r;uuid[8]=uuid[13]=uuid[18]=uuid[23]='-';uuid[14]='4';for(i=0;i<36;i++){if(!uuid[i]){r=0|Math.random()*16;uuid[i]=chars[(i==19)?(r&0x3)|0x8:r];}}}
-                return uuid.join('');
-            }
+            var id = this.getUuid();
+            
             wmf._Time = new Date().getTime()+""+id;
             wmf._Name = name;
             wmf._Phone = phone;
@@ -123,10 +118,17 @@ class textUI extends egret.DisplayObjectContainer{
         tracking('data acquisition','GO','标签3');
     }
 
+    private getUuid(){
+                var len=32;//32长度
+                var radix=16;//16进制
+                var chars='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');var uuid=[],i;radix=radix||chars.length;if(len){for(i=0;i<len;i++)uuid[i]=chars[0|Math.random()*radix];}else{var r;uuid[8]=uuid[13]=uuid[18]=uuid[23]='-';uuid[14]='4';for(i=0;i<36;i++){if(!uuid[i]){r=0|Math.random()*16;uuid[i]=chars[(i==19)?(r&0x3)|0x8:r];}}}
+                return uuid.join('');
+            }
+
     private textgetType(){
         var isphone = document.getElementById("isphone").innerHTML;
         if(isphone == "true"){
-            var url = "http://www.createcdigital.com/wmfh520160830/index.php?sharId="+wmf.openID+"&channel="+wmf.out_trade;
+            var url = "http://wmf.mz-weixin-qq.com/wmfh520160830/index.php?sharId="+wmf.openID+"&channel="+wmf.out_trade;
             window.location.href=url;
         }else{
             wmf.loadgroup = "game4";
